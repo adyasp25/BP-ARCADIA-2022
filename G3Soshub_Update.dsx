@@ -1,0 +1,105 @@
+<DSP128SGExportFile DeviceType="DSP-1282" CreationDate="23/09/2022 16:00:46" LastModifiedDate="23/09/2022 16:00:46">
+  <Comments>
+  </Comments>
+  <ExportedObjects>
+    <SGObject Type="Analog" ReadOnly="False">
+      <DSPParameterId>Matrix Ain 1 Aout 5 Level</DSPParameterId>
+      <ControlTitle>
+      </ControlTitle>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="Matrix.1.1" FWID="1966337" />
+        <DSPObjectType ToolID="Matrix" FWID="6" />
+        <ParamIndex ToolID="Level.AnalogIn.1.AnalogOut.5" FWID="10" />
+      </ObjectAddress>
+      <ParameterInfo Type="Float">
+        <MinVal>-80</MinVal>
+        <MaxVal>20</MaxVal>
+        <Resolution>1</Resolution>
+        <units>dB</units>
+        <DefaultVal>-80</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Digital" ReadOnly="False">
+      <DSPParameterId>Matrix Ain 1 Aout 5 Mute</DSPParameterId>
+      <ControlTitle>
+      </ControlTitle>
+      <ButtonLabel>Mute</ButtonLabel>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="Matrix.1.1" FWID="1966337" />
+        <DSPObjectType ToolID="Matrix" FWID="6" />
+        <ParamIndex ToolID="MuteOn.AnalogIn.1.AnalogOut.5" FWID="11" />
+      </ObjectAddress>
+      <ParameterInfo Type="Bool">
+        <DefaultVal>False</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Analog" ReadOnly="False">
+      <DSPParameterId>Matrix Ain 2 Aout 5 Level</DSPParameterId>
+      <ControlTitle>
+      </ControlTitle>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="Matrix.1.1" FWID="1966337" />
+        <DSPObjectType ToolID="Matrix" FWID="6" />
+        <ParamIndex ToolID="Level.AnalogIn.2.AnalogOut.5" FWID="64" />
+      </ObjectAddress>
+      <ParameterInfo Type="Float">
+        <MinVal>-80</MinVal>
+        <MaxVal>20</MaxVal>
+        <Resolution>1</Resolution>
+        <units>dB</units>
+        <DefaultVal>-80</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Digital" ReadOnly="False">
+      <DSPParameterId>Matrix Ain 2 Aout 5 Mute</DSPParameterId>
+      <ControlTitle>
+      </ControlTitle>
+      <ButtonLabel>Mute</ButtonLabel>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="Matrix.1.1" FWID="1966337" />
+        <DSPObjectType ToolID="Matrix" FWID="6" />
+        <ParamIndex ToolID="MuteOn.AnalogIn.2.AnalogOut.5" FWID="65" />
+      </ObjectAddress>
+      <ParameterInfo Type="Bool">
+        <DefaultVal>False</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Analog" ReadOnly="False">
+      <DSPParameterId>Matrix Ain 8 Aout 5 Level</DSPParameterId>
+      <ControlTitle>
+      </ControlTitle>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="Matrix.1.1" FWID="1966337" />
+        <DSPObjectType ToolID="Matrix" FWID="6" />
+        <ParamIndex ToolID="Level.AnalogIn.8.AnalogOut.5" FWID="388" />
+      </ObjectAddress>
+      <ParameterInfo Type="Float">
+        <MinVal>-80</MinVal>
+        <MaxVal>20</MaxVal>
+        <Resolution>1</Resolution>
+        <units>dB</units>
+        <DefaultVal>-80</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Digital" ReadOnly="False">
+      <DSPParameterId>Matrix Ain 8 Aout 5 Mute</DSPParameterId>
+      <ControlTitle>
+      </ControlTitle>
+      <ButtonLabel>Mute</ButtonLabel>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="Matrix.1.1" FWID="1966337" />
+        <DSPObjectType ToolID="Matrix" FWID="6" />
+        <ParamIndex ToolID="MuteOn.AnalogIn.8.AnalogOut.5" FWID="389" />
+      </ObjectAddress>
+      <ParameterInfo Type="Bool">
+        <DefaultVal>False</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+  </ExportedObjects>
+</DSP128SGExportFile>

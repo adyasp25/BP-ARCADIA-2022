@@ -1,0 +1,9 @@
+<Device Model="RMC3">
+   <Network Type="Cresnet" Id="01"/>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="DSP-1282" DeviceId="03"/>
+      <Device Model="Crestron_App" DeviceId="04" Name="Crestron App"/>
+      <Device Model="AMP-8150" DeviceId="05"/>
+      <Device Model="HD-MD4X2-4K-E" DeviceId="06"/>
+   </Network>
+</Device>
